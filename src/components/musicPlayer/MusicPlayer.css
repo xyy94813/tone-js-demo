@@ -1,0 +1,22 @@
+
+.music-player {
+  min-width: 500px;
+  border: 1px solid gray;
+  padding: 15px;
+  border-radius: 15px;
+  display: inline-block;
+}
+
+.song-list {
+  border: 1px solid gray;
+  padding: 5px;
+  list-style-type: none;
+}
+
+.song-list-item {
+  cursor: pointer;
+}
+
+.song-list-item.selected {
+  background: #2196f3;
+}
